@@ -1,0 +1,35 @@
+.testinomial{
+    text-align: center;
+    margin-top: 30px;
+    height: 75vh;
+}
+.testinomial .t1{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: rgb(255, 183, 0);
+}
+.testinomial .Swiper{
+    overflow: visible!important;
+}
+.testinomial-slider{
+    width: 70%;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 34px;
+    border: solid 1px lightblue;
+}
+.slide img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 80px;
+}
+.slide .t-details p{
+    color: gray;
+    font-size: 16px;
+}
+.slide .t-details h3{
+    font-family: cursive;
+}

@@ -1,0 +1,35 @@
+.about{
+    height: 50vh;
+    text-align: center;
+}
+.about .a1{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: rgb(255, 183, 0);
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 6rem;
+}
+.about1{
+    width: 300px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+}
+.about1 i{
+    font-size: 2.5rem;
+    color: blue;
+    margin-top: 10px;
+}
+.about1 h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.about1 p{
+    color: gray;
+    font-size: 16px;
+}

@@ -1,0 +1,75 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 5vw;
+    background-color: rgb(34, 33, 33);
+    height: 40vh;
+}
+.footer-col{
+    width: 250px;
+    padding-bottom: 40px;
+}
+.footer-col h3{
+    font-size: 1.2rem;
+    color: rgb(255, 183, 0);
+    font-weight: 600;
+    font-family: cursive;
+}
+.footer-col:nth-child(2) h3{
+    margin-left: 25px;
+}
+.footer-col:nth-child(3) h3{
+    margin-left: 10px;
+}
+.footer-col p{
+    color: white;
+    font-family: 'Times New Roman';
+}
+.footer-icons{
+    font-size: 2rem;
+    color: rgb(255, 183, 0);
+}
+.footer-icons i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-icons i:hover{
+    color: bisque;
+}
+.footer-col ul{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+}
+.footer-col ul li{
+   font-size: 15px ;
+   padding: 10px 0px;
+   cursor: pointer;
+}
+li:hover{
+    color: bisque;
+}
+.footer-col .footer-adress p:nth-child(4) {
+    cursor: pointer;
+}
+.footer-col .footer-adress p:nth-child(4):hover{
+    color: bisque;
+}
+.footer-col .footer-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-photos img{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.p{
+    color: white;
+    font-size: 15px;
+}

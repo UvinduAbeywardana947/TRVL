@@ -1,0 +1,36 @@
+.destination{
+    display: flex;
+    height: 30vh;
+    margin-top: 3rem;
+    text-align: center;
+}
+.destination .left-destination{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    position: relative;
+    flex: 1;
+}
+.left-destination .d1{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: rgb(255, 183, 0);
+}
+.left-destination .d2{
+    font-size: 3rem;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.left-destination p{
+    font-family: 'Gill Sans';
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.left-destination .button-destination-button{
+    width: 8rem;
+    margin-top: 3px;
+    height: 3rem;
+}

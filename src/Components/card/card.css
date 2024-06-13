@@ -1,0 +1,45 @@
+.card{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 25px;
+}
+.card-details{
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 2px 10px 8px 1px #999;
+    padding: 10px;
+    height: 360px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.card-details img{
+    width: 318px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card-details h3{
+    font-family: cursive;
+    color:rgb(255, 183, 0);
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.card-details p{
+    font-family: 'Gill Sans';
+    font-weight: 400;
+    color: gray;
+    font-size: 16px;
+}
+.card-details .card-btn{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.card-btn:hover{
+    border: 2px solid blue;
+    color: blue;
+    background-color: white;
+}

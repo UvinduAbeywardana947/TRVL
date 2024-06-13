@@ -1,0 +1,22 @@
+.toggle{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(255, 183, 0);
+    border-radius: 1rem;
+    padding: 2px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle img{
+    width: 1rem; 
+    height: 1rem; 
+    margin-right: 1px;
+}
+
+.toggle .t-button{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    background: rgb(255, 183, 0); 
+    border-radius: 100%; 
+}
